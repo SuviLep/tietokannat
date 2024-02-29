@@ -6,8 +6,6 @@ const prompt = require('prompt-sync')();
 
 
 function Palindromi(sana) {
-    // Poista välilyönnit ja muuta kirjaimet pieniksi
-    sana = sana.toLowerCase();
 
     // Käännä sana takaperin
     const kaannettySana = sana.split('').reverse().join('');
